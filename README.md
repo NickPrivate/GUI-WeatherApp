@@ -22,7 +22,7 @@ The Weather App is a personal project aimed at gaining practical experience in b
   - tkinter (usually included with Python)
 
 # How to Run the Weather App
-  - git clone https://github.com/NickPrivate/Weather-Ppp.git
+  - git clone https://github.com/NickPrivate/Weather-App.git
 Navigate to the project directory:
   - cd weather-app
 Run the Python script to start the Weather App
