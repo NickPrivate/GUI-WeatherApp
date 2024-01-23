@@ -22,11 +22,17 @@ The Weather App is a personal project aimed at gaining practical experience in b
   - tkinter (usually included with Python)
 
 # How to Run the Weather App
-  - git clone https://github.com/NickPrivate/Weather-App.git
-Navigate to the project directory:
-  - cd weather-app
-Run the Python script to start the Weather App
-  - python main.py
+1. git clone https://github.com/NickPrivate/Weather-App.git
+2. Navigate to the project directory:  
+   ```cd Weather-App```
+
+4. Create a **config.py** file with API_KEY and BASE_URL, Replace API_KEY with your API Key
+```
+  API_KEY = "YOUR API KEY HERE"
+  BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
+```
+4. Run the Python script to start the Weather App  
+   ```python main.py```
 
 ## Contributing
 Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or enhancements through GitHub Issues.
