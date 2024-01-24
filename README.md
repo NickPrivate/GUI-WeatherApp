@@ -15,11 +15,12 @@ The Weather App is a personal project aimed at gaining practical experience in b
  You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
 
 - **API Key**: To run the Weather App, you'll need to obtain an API key from a weather data provider.
-  You can obtain a free API key from providers like OpenWeatherMap.
+  You can obtain a free API key from providers like [OpenWeatherMap](https://openweathermap.org/api).
 
 - **External Libraries**: The project uses the following external libraries, which can be installed using pip:
-  - requests
-  - tkinter (usually included with Python)
+  - ```pip install requests```
+  - ```pip install tk```
+ (usually included with Python)
 
 # How to Run the Weather App
 1. git clone https://github.com/NickPrivate/Weather-App.git
@@ -33,6 +34,10 @@ The Weather App is a personal project aimed at gaining practical experience in b
 ```
 4. Run the Python script to start the Weather App  
    ```python main.py```
+5. Enter the name of any City in the world and the program should display
+   - Temperature (in Fahrenheit)
+   - Condition
+   - Humidity (percentage)
 
 ## Contributing
 Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or enhancements through GitHub Issues.
