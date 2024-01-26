@@ -6,7 +6,7 @@ def create_weather_ui(root, on_location_entry,get_weather):
     frm = ttk.Frame(root, padding=10)
     frm.grid()
     style = ttk.Style()
-    style.theme_use('clam')  # Change to the desired theme
+    style.theme_use('clam')
 
 
     ttk.Label(frm, text="Enter Location:").grid(column=0, row=0)
